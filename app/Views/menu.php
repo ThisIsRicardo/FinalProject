@@ -18,64 +18,64 @@
 <body>
 
     <div class="area"></div>
-    <nav class="main-menu bg-secondary">
+    <nav class="main-menu bg-dark">
         <ul>
             <li>
-                <a href="<?php echo base_url('Empleados/dashboard'); ?>">
+                <a href="#">
                     <i class="fa fa-home "></i>
                     <span class="nav-text">
-                        Dashboard
+                        Home
                     </span>
                 </a>
 
             </li>
             <li class="has-subnav">
-                <a href="<?php echo base_url('CargaAController/DataCarga'); ?>">
+                <a href="#">
                 <i class="fa fa-laptop" aria-hidden="true"></i>
                     <span class="nav-text">
-                        Carga Académica
+                        Example 2
                     </span>
                 </a>
             </li>
             <li class="has-subnav">
-                <a href="<?php echo base_url('Empleados/DataEmpleados'); ?>">
+                <a href="#">
                 
                 <i class="fa fa-list-alt" aria-hidden="true"></i>
                     <span class="nav-text">
-                        Empleados
+                        Example 3
                     </span>
                 </a>
             </li>
             <li class="has-subnav">
-                <a href="<?php echo base_url('Materias/DataMateria'); ?>">
+                <a href="#">
                 <i class="fa fa-book" aria-hidden="true"></i>
                     <span class="nav-text">
-                        Materias
+                        Example 4
                     </span>
                 </a>
 
             </li>
             <li>
-                <a href="<?php echo base_url('Materiasasignacion/DataMateriaanidada'); ?>">
+                <a href="#">
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                     <span class="nav-text">
-                        Asignación de materias
+                        Example 5
                     </span>
                 </a>
             </li>
             <li>
-                <a href="<?php echo base_url('CarreraController/DataCarrera'); ?>">
+                <a href="#">
                 <i class="fa fa-table" aria-hidden="true"></i>
                     <span class="nav-text">
-                        Carreras
+                        Example 6
                     </span>
                 </a>
             </li>
             <li class="has-subnav">
-                <a href="<?php echo base_url('Cargocontroller/DataCargo'); ?>">
+                <a href="#">
                     <i class="fa fa-users"></i>
                     <span class="nav-text">
-                        Cargo Empleados
+                        Example 7
                     </span>
                 </a>
             </li>

@@ -1,0 +1,34 @@
+CRITICAL - 2022-12-10 00:03:50 --> Invalid file: empleado/editar_empleado.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleado/editar_empleado.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado/editar_empleado', [], true)
+ 3 APPPATH\Controllers\controlador.php(68): view('empleado/editar_empleado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getedit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 00:04:59 --> Undefined array key "apellidos"
+in APPPATH\Views\ReservaData\editar_reserva.php on line 38.
+ 1 APPPATH\Views\ReservaData\editar_reserva.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellidos"', 'APPPATH\\Views\\ReservaData\\editar_reserva.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\ReservaData\\editar_reserva.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ReservaData/editar_reserva', [], true)
+ 5 APPPATH\Controllers\controlador.php(68): view('ReservaData/editar_reserva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getedit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 00:18:24 --> Undefined array key "dias"
+in APPPATH\Controllers\controlador.php on line 84.
+ 1 APPPATH\Controllers\controlador.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dias"', 'APPPATH\\Controllers\\controlador.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->postupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-10 00:19:08 --> Undefined array key "dias"
+in APPPATH\Controllers\controlador.php on line 84.
+ 1 APPPATH\Controllers\controlador.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dias"', 'APPPATH\\Controllers\\controlador.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->postupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

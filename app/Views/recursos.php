@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- BOOTSTRAP-->
-    <link rel="stylesheet" type="text/css" href="/ProyectoFinal/public/node_modules/bootstrap/dist/css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="/ProyectoFinal/public/scss/custom.css">
+    <link rel="stylesheet" type="text/css" href="/FinalProject/public/node_modules/bootstrap/dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="/FinalProject/public/scss/custom.css">
     <!-- JQUERY -->      
-    <script src="/ProyectoFinal/public/js/jquery.min.js"></script>  
+    <script src="/FinalProject/public/js/jquery.min.js"></script>  
     <!-- DATA TABLES-->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.bootstrap5.min.css"/>

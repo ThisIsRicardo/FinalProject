@@ -32,17 +32,17 @@ use CodeIgniter\Model;
             return $quey->getResult('array');
         }
 
-        /*public function getId($id_empleado){
-            return $this->where('id_empleado',$id_empleado)->first($id_empleado);
+        public function getId($id){
+            return $this->where('id',$id)->first($id);
         }
 
-        public function getdetails($id_empleado){
-            return $this->where('id_empleado',$id_empleado)->first($id_empleado);
+        public function getdetails($id){
+            return $this->where('id',$id)->first($id);
         }
 
-        public function updateDatos($id_empleado, $data){
-            return $this->update($id_empleado, $data);
-        }*/
+        public function updateDatos($id, $data){
+            return $this->update($id, $data);
+        }
 
     }
 ?>

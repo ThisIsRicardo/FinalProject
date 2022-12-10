@@ -129,3 +129,12 @@ in APPPATH\Views\vista_reserva.php on line 55.
  7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
  8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 23:56:58 --> Invalid file: empleado/editar_empleado.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleado/editar_empleado.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado/editar_empleado', [], true)
+ 3 APPPATH\Controllers\controlador.php(68): view('empleado/editar_empleado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getedit('10')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

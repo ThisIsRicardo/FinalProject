@@ -28,9 +28,9 @@ class Controlador extends BaseController
     {
 
         return view('/empleado/crear_empleado');
-    }
+    }*/
 
-    public function postAlmacenar()
+    /*public function postAlmacenar()
     {
 
         $m = model(Modelo::class);
@@ -52,27 +52,27 @@ class Controlador extends BaseController
 
 
         return redirect()->to(base_url('Empleados/Crear'))->with('estado', '<script> swal("Exitoso", "Registro Guardado correctamente!", "success");</script>');
-    }
+    }*/
 
-    public function getdelete($id_empleado = null)
+    public function getdelete($id = null)
     {
-        $delem = new EmpleadoModel();
-        $delem->delete($id_empleado);
-        return redirect()->to(base_url('Empleados/DataEmpleados'))->with('estado', '<script> swal("Exitoso", "Registro Eliminado correctamente!", "success");</script>');
+        $delem = new Modelo();
+        $delem->delete($id);
+        return redirect()->to(base_url('controlador/Data'))->with('estado', '<script> swal("Exitoso", "Registro Eliminado correctamente!", "success");</script>');
     }
 
     public function getedit($id_empleado)
     {
-        $model = new EmpleadoModel();
+        $model = new Modelo();
         $data = $model->getId($id_empleado);
-        echo view('empleado/editar_empleado', compact('data'));
+        echo view('ReservaData/editar_reserva', compact('data'));
     }
-    public function getdetails($id_empleado)
+    /*public function getdetails($id_empleado)
     {
         $model = new EmpleadoModel();
         $data = $model->getdetails($id_empleado);
         echo view('empleado/show_details', compact('data'));
-    }
+    }*/
 
     public function postupdate()
     {
@@ -81,23 +81,19 @@ class Controlador extends BaseController
         $data = [
             'nombres' => $_POST['nombre_e'],
             'apellidos' => $_POST['apellido_e'],
-            'dui' => $_POST['dui_e'],
+            'dias' => $_POST['dias'],
             'telefono' => $_POST['telefono_e'],
-            'fecha_nacimiento' => $_POST['fecha_nacimiento_e'],
-            'fecha_contratacion' => $_POST['fecha_contratacion_e'],
             'direccion' => $_POST['direccion_e'],
-            'estado_civil' => $_POST['estado_e'],
-            'genero' => $_POST['genero_e'],
-            'municipio' => $_POST['municipio_e'],
-            'departamento' => $_POST['departamento_e'],
+            'dui' => $_POST['dui_e'],
+            'comentario' => $_POST['comentario'],
             //'foto' => $_POST['foto_e'],
         ];
 
         $id_empleado = $_POST['id'];
-        $m = new EmpleadoModel();
+        $m = new Modelo();
         $m->updateDatos($id_empleado, $data);
-        return redirect()->to(base_url('Empleados/DataEmpleados'))->with('estado', '<script> swal("Exitoso", "Registro Editado correctamente!", "success");</script>');
-    }*/
+        return redirect()->to(base_url('controlador/Data'))->with('estado', '<script> swal("Exitoso", "Registro Editado correctamente!", "success");</script>');
+    }
 
     public function postValidation()
     {
