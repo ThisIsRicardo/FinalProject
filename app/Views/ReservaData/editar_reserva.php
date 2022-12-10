@@ -22,11 +22,11 @@
     ?>
 
     <div class="card col-6 mx-auto my-5">
-        <div class="card-header text-center lead text-light bg-secondary">
+        <div class="card-header text-center lead text-light bg-dark">
             Formulario para Modificación de Reserva
         </div>
         <div class="card-body">
-            <a href="<?php echo base_url('controlador/Data'); ?>" role="button" class="btn btn-outline-secondary mb-5 text-left"><i class="fa-solid fa-arrow-left"></i> Volver</a>
+            <a href="<?php echo base_url('controlador/Data'); ?>" role="button" class="btn btn-outline-dark mb-5 text-left"><i class="fa-solid fa-arrow-left"></i> Volver</a>
             <form action="<?= base_url('controlador/update') ?>" method="POST">
                 <div class="row g-3">
                     <div class="col">

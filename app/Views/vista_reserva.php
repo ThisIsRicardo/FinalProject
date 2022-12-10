@@ -20,7 +20,7 @@
 
     <div class="container pt-3 ">
         <div class="card">
-            <div class="card-header lead text-center text-light bg-secondary">
+            <div class="card-header lead text-center text-light bg-dark">
                 Datos de la reserva
             </div>
             <div class="card-body">
