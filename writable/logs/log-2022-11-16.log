@@ -1,0 +1,252 @@
+CRITICAL - 2022-11-16 16:06:09 --> Call to a member function listarEmpleados() on null
+in APPPATH\Controllers\Empleados.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 16:07:07 --> Call to a member function mostrarEmpleados() on null
+in APPPATH\Controllers\Empleados.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 17:49:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ']'.
+CRITICAL - 2022-11-16 17:49:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near ']'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM  mpleado] ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM  mpleado] ')
+ 3 APPPATH\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  mpleado] ')
+ 4 APPPATH\Controllers\Empleados.php(12): App\Models\EmpleadoModel->mostrarEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 18:28:48 --> Invalid file: menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('menu.php', null, true)
+ 3 APPPATH\Views\empleado_vista.php(10): CodeIgniter\View\View->include('menu.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado_vista.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado_vista', [], true)
+ 7 APPPATH\Controllers\Empleados.php(14): view('empleado_vista', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 18:29:19 --> Invalid file: menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('menu.php', null, true)
+ 3 APPPATH\Views\empleado_vista.php(10): CodeIgniter\View\View->include('menu.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado_vista.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado_vista', [], true)
+ 7 APPPATH\Controllers\Empleados.php(14): view('empleado_vista', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 18:29:41 --> Invalid file: menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('menu.php', null, true)
+ 3 APPPATH\Views\empleado_vista.php(10): CodeIgniter\View\View->include('menu.php')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado_vista.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado_vista', [], true)
+ 7 APPPATH\Controllers\Empleados.php(14): view('empleado_vista', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:22:25 --> Undefined array key "id_cliente"
+in APPPATH\Views\empleado_vista.php on line 46.
+ 1 APPPATH\Views\empleado_vista.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cliente"', 'APPPATH\\Views\\empleado_vista.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado_vista', [], true)
+ 5 APPPATH\Controllers\Empleados.php(14): view('empleado_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:22:34 --> Undefined array key "id_cliente"
+in APPPATH\Views\empleado_vista.php on line 46.
+ 1 APPPATH\Views\empleado_vista.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cliente"', 'APPPATH\\Views\\empleado_vista.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado_vista', [], true)
+ 5 APPPATH\Controllers\Empleados.php(14): view('empleado_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+<<<<<<< HEAD
+CRITICAL - 2022-11-16 23:18:40 --> Undefined variable $_SESSION
+in APPPATH\Views\menu.php on line 25.
+ 1 APPPATH\Views\menu.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\menu.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('menu.php', null, true)
+ 5 APPPATH\Views\empleado_vista.php(13): CodeIgniter\View\View->include('menu.php')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado_vista.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado_vista', [], true)
+ 9 APPPATH\Controllers\Empleados.php(14): view('empleado_vista', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->listarEmpleados()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+=======
+ERROR - 2022-11-16 22:50:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Implicit conversion from data type varchar to varbinary(max) is not allowed. Use the CONVERT function to run this query.
+CRITICAL - 2022-11-16 22:50:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Implicit conversion from data type varchar to varbinary(max) is not allowed. Use the CONVERT function to run this query.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (\'hola\', \'ahsodf\', \'4g4g\', \'rg43w4\', \'g4wg4g\', \'4g4g4\', \'4g4g\', \'4g44\', \'4g44\', \'gg4\', \'4g4\', \'4gg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (\'hola\', \'ahsodf\', \'4g4g\', \'rg43w4\', \'g4wg4g\', \'4g4g4\', \'4g4g\', \'4g44\', \'4g44\', \'gg4\', \'4g4\', \'4gg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:, :foto:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 22:52:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting date and/or time from character string.
+CRITICAL - 2022-11-16 22:52:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting date and/or time from character string.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (\'hola\', \'ahsodf\', \'4g4g\', \'rg43w4\', \'g4wg4g\', \'4g4g4\', \'4g4g\', \'4g44\', \'4g44\', \'gg4\', \'4g4\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (\'hola\', \'ahsodf\', \'4g4g\', \'rg43w4\', \'g4wg4g\', \'4g4g4\', \'4g4g\', \'4g44\', \'4g44\', \'gg4\', \'4g4\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:, :foto:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 22:53:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Implicit conversion from data type varchar to varbinary(max) is not allowed. Use the CONVERT function to run this query.
+CRITICAL - 2022-11-16 22:53:52 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Implicit conversion from data type varchar to varbinary(max) is not allowed. Use the CONVERT function to run this query.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (\'hola\', \'xqWF3\', \'wf44ta\', \'FZ4W\', \'F4Wa\', \'f4q4f\', \'wf44ta\', \'af4\', \'4fafa\', \'44aff\', \'f44aw\', \'IMG_20221026_091809.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (\'hola\', \'xqWF3\', \'wf44ta\', \'FZ4W\', \'F4Wa\', \'f4q4f\', \'wf44ta\', \'af4\', \'4fafa\', \'44aff\', \'f44aw\', \'IMG_20221026_091809.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:, :foto:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 22:54:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Implicit conversion from data type varchar to varbinary(max) is not allowed. Use the CONVERT function to run this query.
+CRITICAL - 2022-11-16 22:54:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Implicit conversion from data type varchar to varbinary(max) is not allowed. Use the CONVERT function to run this query.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (\'f33w\', \'e5gseh5\', \'htdhh\', \'drgdr\', \'grd5\', \'ggdd\', \'htdhh\', \'5hdhh\', \'hd5h5\', \'dh5dh\', \'dhhdh5h\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (\'f33w\', \'e5gseh5\', \'htdhh\', \'drgdr\', \'grd5\', \'ggdd\', \'htdhh\', \'5hdhh\', \'hd5h5\', \'dh5dh\', \'dhhdh5h\', \'\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento","foto") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:, :foto:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 22:58:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting date and/or time from character string.
+CRITICAL - 2022-11-16 22:58:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting date and/or time from character string.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'bhth\', \'hcr5hdh6\', \'hxh6jhe5\', \'78785865\', \'x6rh6h6r\', \'hrh6fch6c\', \'hxh6jhe5\', \'e5ggg5ge\', \'masculino\', \'san marcos\', \'san salvador\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'bhth\', \'hcr5hdh6\', \'hxh6jhe5\', \'78785865\', \'x6rh6h6r\', \'hrh6fch6c\', \'hxh6jhe5\', \'e5ggg5ge\', \'masculino\', \'san marcos\', \'san salvador\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+>>>>>>> b788c1c61ccc3699d15919c5817d8bfb1cae3602
+ERROR - 2022-11-16 23:33:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+CRITICAL - 2022-11-16 23:33:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'Douglas Ricardo\', \'Menjivar Alvarado\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'45345345345\', \'2022-11-23\', \'2022-11-09\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'SEXO\', \'cabañas\', \'SE\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'Douglas Ricardo\', \'Menjivar Alvarado\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'45345345345\', \'2022-11-23\', \'2022-11-09\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'SEXO\', \'cabañas\', \'SE\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 23:33:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+CRITICAL - 2022-11-16 23:33:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'Douglas Ricardo\', \'Menjivar Alvarado\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'45345345345\', \'2022-11-23\', \'2022-11-09\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'SEXO\', \'cabañas\', \'SE\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'Douglas Ricardo\', \'Menjivar Alvarado\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'45345345345\', \'2022-11-23\', \'2022-11-09\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'SEXO\', \'cabañas\', \'SE\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 23:33:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+CRITICAL - 2022-11-16 23:33:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'Douglas Ricardo\', \'Menjivar Alvarado\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'45345345345\', \'2022-11-23\', \'2022-11-09\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'SEXO\', \'cabañas\', \'SE\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'Douglas Ricardo\', \'Menjivar Alvarado\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'45345345345\', \'2022-11-23\', \'2022-11-09\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'SEXO\', \'cabañas\', \'SE\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 23:34:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+CRITICAL - 2022-11-16 23:34:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'xd\', \'xdx\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'54456464\', \'2022-11-17\', \'2022-11-01\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'PO\', \'cabañas\', \'QWERTY\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'xd\', \'xdx\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'54456464\', \'2022-11-17\', \'2022-11-01\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'PO\', \'cabañas\', \'QWERTY\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-16 23:35:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+CRITICAL - 2022-11-16 23:35:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated in table 'Sistema.dbo.Empleado', column 'dui'. Truncated value: 'RES. BOSQUES DE'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'Douglas Ricardo\', \'Menjivar Alvarado\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'1223\', \'2022-11-23\', \'2022-11-02\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'PO\', \'cabañas\', \'QWERTY\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (\'Douglas Ricardo\', \'Menjivar Alvarado\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'1223\', \'2022-11-23\', \'2022-11-02\', \'RES. BOSQUES DE LA PAZ CALLE 3 PONIENTE CASA 22\', \'JIJIJA\', \'PO\', \'cabañas\', \'QWERTY\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Empleado" ("nombres","apellidos","dui","telefono","fecha_nacimiento","fecha_contratacion","direccion","estado_civil","genero","municipio","departamento") VALUES (:nombres:, :apellidos:, :dui:, :telefono:, :fecha_nacimiento:, :fecha_contratacion:, :direccion:, :estado_civil:, :genero:, :municipio:, :departamento:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Empleados.php(46): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->almacenarEmpleado()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

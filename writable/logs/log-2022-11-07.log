@@ -1,0 +1,56 @@
+ERROR - 2022-11-07 23:52:06 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Builder.php(627): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ProyectoFinal\system\Model.php(223): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ProyectoFinal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ProyectoFinal\app\Models\Modelo.php(19): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ProyectoFinal\app\Controllers\Hola.php(12): App\Models\Modelo->listarCarrera()
+#7 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(927): App\Controllers\Hola->index()
+#8 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hola))
+#9 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoFinal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-07 23:52:06 --> Unable to connect to the database.
+Main connection [sqlsrv]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(627): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "proyecto"."dbo"."Carrera"', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Modelo.php(19): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Hola.php(12): App\Models\Modelo->listarCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hola->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hola))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-07 23:54:25 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Connection.php:127
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Builder.php(627): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\xampp\htdocs\ProyectoFinal\system\Model.php(223): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\xampp\htdocs\ProyectoFinal\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\ProyectoFinal\app\Models\Modelo.php(19): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\ProyectoFinal\app\Controllers\Hola.php(12): App\Models\Modelo->listarCarrera()
+#7 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(927): App\Controllers\Hola->index()
+#8 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hola))
+#9 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ProyectoFinal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-07 23:54:25 --> Unable to connect to the database.
+Main connection [sqlsrv]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(627): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "proyecto"."dbo"."Carrera"', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Modelo.php(19): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Hola.php(12): App\Models\Modelo->listarCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Hola->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hola))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

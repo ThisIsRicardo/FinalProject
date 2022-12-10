@@ -1,0 +1,90 @@
+CRITICAL - 2022-11-14 21:12:32 --> Invalid file: menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarManu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:13:06 --> Invalid file: menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarManu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:13:29 --> Invalid file: menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarManu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:14:00 --> Invalid file: /menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarManu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:14:03 --> Invalid file: /menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarManu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:14:10 --> Invalid file: /menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarManu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:17:58 --> Invalid file: menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarMenu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:18:58 --> Invalid file: /menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarMenu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:19:06 --> Invalid file: /menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarMenu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-14 21:28:02 --> Invalid file: /propiedades/menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/propiedades/menu.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/propiedades/menu', [], true)
+ 3 APPPATH\Controllers\Empleados.php(19): view('/propiedades/menu')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->cargarMenu()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

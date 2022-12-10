@@ -1,0 +1,38 @@
+ERROR - 2022-12-03 07:50:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcionf'.
+CRITICAL - 2022-12-03 07:50:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcionf'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT ca.id_carga_academica, ca.id_empleado_cargo,em.nombres,em.apellidos, c.descripcion, ca.id_carga_materia,fac.descripcionf,car.descripcion +\'-\'+mat.nombres_materia as Materia, ca.id_periodo,p.fecha_inicio_ciclo,p.fecha_final_ciclo,p.ciclo,p.año, ca.id_hora, h.dia,h.hora  from Carga_Academica ca
+            inner join inter_Empleado_Cargo iec on ca.id_empleado_cargo = iec.id_empleado_cargo
+            inner join Inter_CargaAcademica_Materia im on ca.id_carga_materia = im.id_carga_materia
+            inner join Periodo p on ca.id_periodo = p.id_periodo
+            inner join Horario h on ca.id_hora = h.id_horario
+            inner join Cargo c on iec.id_cargo = c.id_cargo
+            inner join carrera car on im.id_carrera = car.id_carrera
+            inner join Empleado em on iec.id_empleado = em.id_empleado
+            inner join Materia mat on im.id_materia = mat.id_materia
+            inner join Facultad fac on Car.id_facultad = fac.id_facultad')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ca.id_carga_academica, ca.id_empleado_cargo,em.nombres,em.apellidos, c.descripcion, ca.id_carga_materia,fac.descripcionf,car.descripcion +\'-\'+mat.nombres_materia as Materia, ca.id_periodo,p.fecha_inicio_ciclo,p.fecha_final_ciclo,p.ciclo,p.año, ca.id_hora, h.dia,h.hora  from Carga_Academica ca
+            inner join inter_Empleado_Cargo iec on ca.id_empleado_cargo = iec.id_empleado_cargo
+            inner join Inter_CargaAcademica_Materia im on ca.id_carga_materia = im.id_carga_materia
+            inner join Periodo p on ca.id_periodo = p.id_periodo
+            inner join Horario h on ca.id_hora = h.id_horario
+            inner join Cargo c on iec.id_cargo = c.id_cargo
+            inner join carrera car on im.id_carrera = car.id_carrera
+            inner join Empleado em on iec.id_empleado = em.id_empleado
+            inner join Materia mat on im.id_materia = mat.id_materia
+            inner join Facultad fac on Car.id_facultad = fac.id_facultad')
+ 3 APPPATH\Models\cargaAmodel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT ca.id_carga_academica, ca.id_empleado_cargo,em.nombres,em.apellidos, c.descripcion, ca.id_carga_materia,fac.descripcionf,car.descripcion +\'-\'+mat.nombres_materia as Materia, ca.id_periodo,p.fecha_inicio_ciclo,p.fecha_final_ciclo,p.ciclo,p.año, ca.id_hora, h.dia,h.hora  from Carga_Academica ca
+            inner join inter_Empleado_Cargo iec on ca.id_empleado_cargo = iec.id_empleado_cargo
+            inner join Inter_CargaAcademica_Materia im on ca.id_carga_materia = im.id_carga_materia
+            inner join Periodo p on ca.id_periodo = p.id_periodo
+            inner join Horario h on ca.id_hora = h.id_horario
+            inner join Cargo c on iec.id_cargo = c.id_cargo
+            inner join carrera car on im.id_carrera = car.id_carrera
+            inner join Empleado em on iec.id_empleado = em.id_empleado
+            inner join Materia mat on im.id_materia = mat.id_materia
+            inner join Facultad fac on Car.id_facultad = fac.id_facultad')
+ 4 APPPATH\Controllers\CargaAController.php(15): App\Models\cargaAmodel->mostrarCargaAcademica()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCarga()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,1042 @@
+CRITICAL - 2022-11-30 16:55:50 --> Undefined variable $empleado
+in APPPATH\Views\Materia\materia_vista.php on line 39.
+ 1 APPPATH\Views\Materia\materia_vista.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'APPPATH\\Views\\Materia\\materia_vista.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Materia\\materia_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Materia/materia_vista', [], true)
+ 5 APPPATH\Controllers\Materias.php(17): view('/Materia/materia_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getDataMateria()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:00:46 --> Undefined array key "id_empleado"
+in APPPATH\Views\Materia\materia_vista.php on line 45.
+ 1 APPPATH\Views\Materia\materia_vista.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_empleado"', 'APPPATH\\Views\\Materia\\materia_vista.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Materia\\materia_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Materia/materia_vista', [], true)
+ 5 APPPATH\Controllers\Materias.php(17): view('/Materia/materia_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getDataMateria()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:01:41 --> Undefined array key "id_empleado"
+in APPPATH\Views\Materia\materia_vista.php on line 45.
+ 1 APPPATH\Views\Materia\materia_vista.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_empleado"', 'APPPATH\\Views\\Materia\\materia_vista.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Materia\\materia_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Materia/materia_vista', [], true)
+ 5 APPPATH\Controllers\Materias.php(17): view('/Materia/materia_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getDataMateria()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:01:55 --> Undefined array key "id_empleado"
+in APPPATH\Views\Materia\materia_vista.php on line 45.
+ 1 APPPATH\Views\Materia\materia_vista.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_empleado"', 'APPPATH\\Views\\Materia\\materia_vista.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Materia\\materia_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Materia/materia_vista', [], true)
+ 5 APPPATH\Controllers\Materias.php(17): view('/Materia/materia_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getDataMateria()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:02:12 --> Undefined array key "nombres"
+in APPPATH\Views\Materia\editar_materia.php on line 34.
+ 1 APPPATH\Views\Materia\editar_materia.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres"', 'APPPATH\\Views\\Materia\\editar_materia.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Materia\\editar_materia.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Materia/editar_materia', [], true)
+ 5 APPPATH\Controllers\Materias.php(55): view('Materia/editar_materia', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:05:38 --> Undefined array key "id"
+in APPPATH\Controllers\Materias.php on line 70.
+ 1 APPPATH\Controllers\Materias.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Materias.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->postupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:38:23 --> Call to undefined method App\Models\Materiamodel::mostrarMaterias
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Materias.php(15): CodeIgniter\Model->__call('mostrarMaterias', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getDataMateria()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:40:34 --> Call to undefined method App\Models\Materiamodel::mostrarMaterias
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Materias.php(15): CodeIgniter\Model->__call('mostrarMaterias', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getDataMateria()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:41:45 --> Call to undefined method App\Models\Materiamodel::mostrarMaterias
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Materias.php(15): CodeIgniter\Model->__call('mostrarMaterias', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getDataMateria()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:41:49 --> Call to undefined method App\Models\Materiamodel::mostrarMaterias
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Materias.php(15): CodeIgniter\Model->__call('mostrarMaterias', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materias->getDataMateria()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materias))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:48:11 --> Undefined variable $materia
+in APPPATH\Views\Asignar_Facultad\materia_asignacionm_vista.php on line 40.
+ 1 APPPATH\Views\Asignar_Facultad\materia_asignacionm_vista.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $materia', 'APPPATH\\Views\\Asignar_Facultad\\materia_asignacionm_vista.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\materia_asignacionm_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/materia_asignacionm_vista', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(17): view('/Asignar_Facultad/materia_asignacionm_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataMateriaanidada()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:09:03 --> Invalid file: /Asignar_Facultad/crear_asignacionm.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Asignar_Facultad/crear_asignacionm.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asignacionm', [], true)
+ 3 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asignacionm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:09:33 --> Invalid file: /Asignar_Facultad/crear_asignacionm.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Asignar_Facultad/crear_asignacionm.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asignacionm', [], true)
+ 3 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asignacionm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:11:10 --> Undefined variable $row
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 36.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:11:51 --> Undefined array key "id_carga_materia"
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 36.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_carga_materia"', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:14:22 --> Undefined array key "id_materia"
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 36.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_materia"', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:18:38 --> Undefined array key "id_carga_materia"
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 37.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_carga_materia"', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:19:19 --> Undefined array key "id_materia"
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 37.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_materia"', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:20:03 --> Undefined array key "id_materia"
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 37.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_materia"', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:29:17 --> Undefined variable $combobox2
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 48.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox2', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [...], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(25): view('/Asignar_Facultad/crear_asigancionm', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:29:54 --> Undefined variable $combobox2
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 48.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox2', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [...], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(26): view('/Asignar_Facultad/crear_asigancionm', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:33:16 --> Undefined variable $combobox2
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 48.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox2', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:34:02 --> Undefined variable $combobox2
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 48.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox2', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(24): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:38:43 --> Undefined array key "descripcion"
+in APPPATH\Views\Asignar_Facultad\crear_asigancionm.php on line 50.
+ 1 APPPATH\Views\Asignar_Facultad\crear_asigancionm.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\crear_asigancionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/crear_asigancionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(25): view('/Asignar_Facultad/crear_asigancionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 19:39:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Inter_Car__id_ma__46E78A0C". The conflict occurred in database "Sistema", table "dbo.Materia", column 'id_materia'.
+CRITICAL - 2022-11-30 19:39:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Inter_Car__id_ma__46E78A0C". The conflict occurred in database "Sistema", table "dbo.Materia", column 'id_materia'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."Inter_CargaAcademica_Materia" ("id_carrera","id_materia") VALUES (NULL, \'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."Inter_CargaAcademica_Materia" ("id_carrera","id_materia") VALUES (NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."Inter_CargaAcademica_Materia" ("id_carrera","id_materia") VALUES (:id_carrera:, :id_materia:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Materiasasignacion.php(50): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:43:37 --> Invalid file: Asignar_Facultad/editar_materia.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Asignar_Facultad/editar_materia.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Asignar_Facultad/editar_materia', [], true)
+ 3 APPPATH\Controllers\Materiasasignacion.php(65): view('Asignar_Facultad/editar_materia', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('11')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 19:43:53 --> Undefined array key "nombres_materia"
+in APPPATH\Views\Asignar_Facultad\Show_Details.php on line 32.
+ 1 APPPATH\Views\Asignar_Facultad\Show_Details.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres_materia"', 'APPPATH\\Views\\Asignar_Facultad\\Show_Details.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\Show_Details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Asignar_Facultad/show_details', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(70): view('Asignar_Facultad/show_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getdetails('11')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:00:54 --> Undefined array key "nombres_materia"
+in APPPATH\Views\Asignar_Facultad\Show_Details.php on line 32.
+ 1 APPPATH\Views\Asignar_Facultad\Show_Details.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres_materia"', 'APPPATH\\Views\\Asignar_Facultad\\Show_Details.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\Show_Details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Asignar_Facultad/show_details', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(70): view('Asignar_Facultad/show_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getdetails('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:00:58 --> Invalid file: Asignar_Facultad/editar_materia.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Asignar_Facultad/editar_materia.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Asignar_Facultad/editar_materia', [], true)
+ 3 APPPATH\Controllers\Materiasasignacion.php(65): view('Asignar_Facultad/editar_materia', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:02:51 --> Undefined array key "fecha_nacimiento"
+in APPPATH\Views\Asignar_Facultad\Show_Details.php on line 34.
+ 1 APPPATH\Views\Asignar_Facultad\Show_Details.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_nacimiento"', 'APPPATH\\Views\\Asignar_Facultad\\Show_Details.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\Show_Details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Asignar_Facultad/show_details', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(70): view('Asignar_Facultad/show_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getdetails('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:07:33 --> Undefined array key "nombres_materia"
+in APPPATH\Views\Asignar_Facultad\Show_Details.php on line 34.
+ 1 APPPATH\Views\Asignar_Facultad\Show_Details.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres_materia"', 'APPPATH\\Views\\Asignar_Facultad\\Show_Details.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\Show_Details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Asignar_Facultad/show_details', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(70): view('Asignar_Facultad/show_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getdetails('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:07:38 --> Undefined array key "nombres_materia"
+in APPPATH\Views\Asignar_Facultad\Show_Details.php on line 34.
+ 1 APPPATH\Views\Asignar_Facultad\Show_Details.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres_materia"', 'APPPATH\\Views\\Asignar_Facultad\\Show_Details.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\Show_Details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Asignar_Facultad/show_details', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(70): view('Asignar_Facultad/show_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getdetails('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:11:23 --> Undefined array key "nombres_materia"
+in APPPATH\Views\Asignar_Facultad\Show_Details.php on line 34.
+ 1 APPPATH\Views\Asignar_Facultad\Show_Details.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres_materia"', 'APPPATH\\Views\\Asignar_Facultad\\Show_Details.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\Show_Details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Asignar_Facultad/Show_Details', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(70): view('Asignar_Facultad/Show_Details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getdetails('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:14:00 --> Undefined variable $combobox
+in APPPATH\Views\Asignar_Facultad\Show_Details.php on line 32.
+ 1 APPPATH\Views\Asignar_Facultad\Show_Details.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Asignar_Facultad\\Show_Details.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\Show_Details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/Show_Details', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(70): view('/Asignar_Facultad/Show_Details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getdetails('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:19:58 --> Undefined variable $data
+in APPPATH\Views\Asignar_Facultad\editar_asignacionm.php on line 32.
+ 1 APPPATH\Views\Asignar_Facultad\editar_asignacionm.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/editar_asignacionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(65): view('/Asignar_Facultad/editar_asignacionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:22:55 --> Call to undefined method App\Models\MateriaanidadaModel::getedit1
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Materiasasignacion.php(64): CodeIgniter\Model->__call('getedit1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:24:24 --> Call to undefined method App\Models\MateriaanidadaModel::getedit1
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Materiasasignacion.php(64): CodeIgniter\Model->__call('getedit1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:24:27 --> Call to undefined method App\Models\MateriaanidadaModel::getedit1
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Materiasasignacion.php(64): CodeIgniter\Model->__call('getedit1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 21:25:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "i.id_carga_materia" could not be bound.
+CRITICAL - 2022-11-30 21:25:18 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "i.id_carga_materia" could not be bound.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM materia where i.id_carga_materia=12 ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM materia where i.id_carga_materia=12 ')
+ 3 APPPATH\Models\MateriaanidadaModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM materia where i.id_carga_materia=12 ')
+ 4 APPPATH\Controllers\Materiasasignacion.php(64): App\Models\MateriaanidadaModel->getid1('12')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 21:25:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_carga_materia'.
+CRITICAL - 2022-11-30 21:25:49 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_carga_materia'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM materia where id_carga_materia=12 ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM materia where id_carga_materia=12 ')
+ 3 APPPATH\Models\MateriaanidadaModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM materia where id_carga_materia=12 ')
+ 4 APPPATH\Controllers\Materiasasignacion.php(64): App\Models\MateriaanidadaModel->getid1('12')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 21:26:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_carga_materia'.
+CRITICAL - 2022-11-30 21:26:33 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_carga_materia'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM materia where id_carga_materia=12 ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM materia where id_carga_materia=12 ')
+ 3 APPPATH\Models\MateriaanidadaModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM materia where id_carga_materia=12 ')
+ 4 APPPATH\Controllers\Materiasasignacion.php(64): App\Models\MateriaanidadaModel->getid1('12')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 21:26:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_carga_materia'.
+CRITICAL - 2022-11-30 21:26:35 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_carga_materia'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT * FROM materia where id_carga_materia=13 ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM materia where id_carga_materia=13 ')
+ 3 APPPATH\Models\MateriaanidadaModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM materia where id_carga_materia=13 ')
+ 4 APPPATH\Controllers\Materiasasignacion.php(64): App\Models\MateriaanidadaModel->getid1('13')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('13')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:35:30 --> Undefined variable $row
+in APPPATH\Views\Asignar_Facultad\editar_asignacionm.php on line 33.
+ 1 APPPATH\Views\Asignar_Facultad\editar_asignacionm.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/editar_asignacionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(69): view('/Asignar_Facultad/editar_asignacionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:35:47 --> Undefined array key "id_carga_materia"
+in APPPATH\Views\Asignar_Facultad\editar_asignacionm.php on line 64.
+ 1 APPPATH\Views\Asignar_Facultad\editar_asignacionm.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_carga_materia"', 'APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php', 64)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/editar_asignacionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(69): view('/Asignar_Facultad/editar_asignacionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('12')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:44:14 --> Undefined array key "id_carrera"
+in APPPATH\Controllers\Materiasasignacion.php on line 81.
+ 1 APPPATH\Controllers\Materiasasignacion.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_carrera"', 'APPPATH\\Controllers\\Materiasasignacion.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->postupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 21:44:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Gestion de proyectos' to data type int.
+CRITICAL - 2022-11-30 21:44:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Gestion de proyectos' to data type int.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('UPDATE "Sistema"."dbo"."Inter_CargaAcademica_Materia" SET "id_carrera" = \'1\', "id_materia" = \'Gestion de proyectos\'
+WHERE "Inter_CargaAcademica_Materia"."id_carga_materia" IN (\'15\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "Sistema"."dbo"."Inter_CargaAcademica_Materia" SET "id_carrera" = \'1\', "id_materia" = \'Gestion de proyectos\'
+WHERE "Inter_CargaAcademica_Materia"."id_carga_materia" IN (\'15\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE "Sistema"."dbo"."Inter_CargaAcademica_Materia" SET "id_carrera" = :id_carrera:, "id_materia" = :id_materia:
+WHERE "Inter_CargaAcademica_Materia"."id_carga_materia" IN :Inter_CargaAcademica_Materia.id_carga_materia:', [...], false)
+ 4 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Models\MateriaanidadaModel.php(73): CodeIgniter\Model->update('15', [...])
+ 8 APPPATH\Controllers\Materiasasignacion.php(87): App\Models\MateriaanidadaModel->updateDatos('15', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->postupdate()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:47:44 --> Undefined variable $row
+in APPPATH\Views\Asignar_Facultad\editar_asignacionm.php on line 35.
+ 1 APPPATH\Views\Asignar_Facultad\editar_asignacionm.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/editar_asignacionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(69): view('/Asignar_Facultad/editar_asignacionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 21:47:50 --> Undefined array key "id_materia"
+in APPPATH\Views\Asignar_Facultad\editar_asignacionm.php on line 35.
+ 1 APPPATH\Views\Asignar_Facultad\editar_asignacionm.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_materia"', 'APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Asignar_Facultad\\editar_asignacionm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Asignar_Facultad/editar_asignacionm', [], true)
+ 5 APPPATH\Controllers\Materiasasignacion.php(69): view('/Asignar_Facultad/editar_asignacionm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getedit('15')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 21:49:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Gestion de proyectos' to data type int.
+CRITICAL - 2022-11-30 21:49:02 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value 'Gestion de proyectos' to data type int.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('UPDATE "Sistema"."dbo"."Inter_CargaAcademica_Materia" SET "id_carrera" = \'3\', "id_materia" = \'Gestion de proyectos\'
+WHERE "Inter_CargaAcademica_Materia"."id_carga_materia" IN (\'15\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "Sistema"."dbo"."Inter_CargaAcademica_Materia" SET "id_carrera" = \'3\', "id_materia" = \'Gestion de proyectos\'
+WHERE "Inter_CargaAcademica_Materia"."id_carga_materia" IN (\'15\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE "Sistema"."dbo"."Inter_CargaAcademica_Materia" SET "id_carrera" = :id_carrera:, "id_materia" = :id_materia:
+WHERE "Inter_CargaAcademica_Materia"."id_carga_materia" IN :Inter_CargaAcademica_Materia.id_carga_materia:', [...], false)
+ 4 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Models\MateriaanidadaModel.php(73): CodeIgniter\Model->update('15', [...])
+ 8 APPPATH\Controllers\Materiasasignacion.php(87): App\Models\MateriaanidadaModel->updateDatos('15', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->postupdate()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:15:44 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:18:53 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:18:55 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:18:55 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:18:56 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:18:57 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:19:43 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:19:47 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:21:42 --> Undefined array key "id_Carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 48.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_Carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:29:42 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(39): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:31:19 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:31:20 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:32:06 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:32:06 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:32:07 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:32:07 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:32:07 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:32:07 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:32:10 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:34:46 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:34:48 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 22:34:57 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:36:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:36:32 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (:descripcion:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:37:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:37:04 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (:descripcion:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:37:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:37:25 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (:descripcion:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:38:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:38:54 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (:descripcion:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:39:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:39:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (:descripcion:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:51:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:51:10 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (\'Arquitectura\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion") VALUES (:descripcion:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:52:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:52:50 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (\'Arquitectura\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (\'Arquitectura\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (:descripcion:, :id_facultad:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:54:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:54:12 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (\'sadasdsa\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (\'sadasdsa\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (:descripcion:, :id_facultad:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 22:55:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+CRITICAL - 2022-11-30 22:55:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_facultad', table 'Sistema.dbo.Carrera'; column does not allow nulls. INSERT fails.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (\'aasdasd\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (\'aasdasd\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("descripcion","id_facultad") VALUES (:descripcion:, :id_facultad:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CarreraController.php(48): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 23:06:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "i.id_carga_materia" could not be bound.
+CRITICAL - 2022-11-30 23:06:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "i.id_carga_materia" could not be bound.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carga_materia=1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carga_materia=1')
+ 3 APPPATH\Models\CarreraModel.php(52): CodeIgniter\Database\BaseConnection->query('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carga_materia=1')
+ 4 APPPATH\Controllers\CarreraController.php(62): App\Models\CarreraModel->getdetails('1')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getedit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 23:07:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "i.id_carrera" could not be bound.
+CRITICAL - 2022-11-30 23:07:05 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "i.id_carrera" could not be bound.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=1')
+ 3 APPPATH\Models\CarreraModel.php(52): CodeIgniter\Database\BaseConnection->query('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=1')
+ 4 APPPATH\Controllers\CarreraController.php(62): App\Models\CarreraModel->getdetails('1')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getedit('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:07:31 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\editar_Carrera.php on line 44.
+ 1 APPPATH\Views\Carreras\editar_Carrera.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\editar_Carrera.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\editar_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/editar_Carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(65): view('/Carreras/editar_Carrera', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:07:57 --> Undefined variable $data
+in APPPATH\Views\Carreras\editar_Carrera.php on line 53.
+ 1 APPPATH\Views\Carreras\editar_Carrera.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\Carreras\\editar_Carrera.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\editar_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/editar_Carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(65): view('/Carreras/editar_Carrera', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:08:40 --> Undefined array key "id_materia"
+in APPPATH\Views\Carreras\editar_Carrera.php on line 55.
+ 1 APPPATH\Views\Carreras\editar_Carrera.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_materia"', 'APPPATH\\Views\\Carreras\\editar_Carrera.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\editar_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/editar_Carrera', [], true)
+ 5 APPPATH\Controllers\CarreraController.php(65): view('/Carreras/editar_Carrera', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:36:46 --> Call to undefined method App\Models\CargoModel::mostrarCarrera
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\CargoController.php(15): CodeIgniter\Model->__call('mostrarCarrera', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->getDataCargo()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:37:12 --> Undefined array key "id_carrera"
+in APPPATH\Views\Carreras\carrera_vista.php on line 43.
+ 1 APPPATH\Views\Carreras\carrera_vista.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_carrera"', 'APPPATH\\Views\\Carreras\\carrera_vista.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\carrera_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/carreras/carrera_vista', [], true)
+ 5 APPPATH\Controllers\CargoController.php(17): view('/carreras/carrera_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->getDataCargo()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:42:18 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CargoController.php(37): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:44:41 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CargoController.php(39): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:44:59 --> Undefined variable $combobox
+in APPPATH\Views\Carreras\crear_Carrera.php on line 40.
+ 1 APPPATH\Views\Carreras\crear_Carrera.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Carreras\\crear_Carrera.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carreras\\crear_Carrera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/Carreras/crear_carrera', [], true)
+ 5 APPPATH\Controllers\CargoController.php(39): view('/Carreras/crear_carrera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 23:49:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_cargo'.
+CRITICAL - 2022-11-30 23:49:57 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_cargo'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "Sistema"."dbo"."carrera" ("id_cargo","id_empleado") VALUES (\'1\', \'10\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "Sistema"."dbo"."carrera" ("id_cargo","id_empleado") VALUES (\'1\', \'10\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO "Sistema"."dbo"."carrera" ("id_cargo","id_empleado") VALUES (:id_cargo:, :id_empleado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\CargoController.php(50): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->postAlmacenar()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-30 23:53:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_empleado_cargo'.
+CRITICAL - 2022-11-30 23:53:11 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'id_empleado_cargo'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where c.id_empleado_cargo=2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where c.id_empleado_cargo=2')
+ 3 APPPATH\Models\CargoModel.php(60): CodeIgniter\Database\BaseConnection->query('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where c.id_empleado_cargo=2')
+ 4 APPPATH\Controllers\CargoController.php(64): App\Models\CargoModel->getdetails('2')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->getedit('2')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 23:58:23 --> Undefined variable $combobox
+in APPPATH\Views\Cargo\editar_Cargo.php on line 58.
+ 1 APPPATH\Views\Cargo\editar_Cargo.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $combobox', 'APPPATH\\Views\\Cargo\\editar_Cargo.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Cargo\\editar_Cargo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/cargo/editar_cargo', [], true)
+ 5 APPPATH\Controllers\CargoController.php(67): view('/cargo/editar_cargo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->getedit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

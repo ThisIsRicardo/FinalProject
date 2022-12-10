@@ -1,0 +1,20 @@
+CRITICAL - 2022-11-17 18:56:56 --> Invalid file: empleado_vista.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleado_vista.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado_vista', [], true)
+ 3 APPPATH\Controllers\Empleados.php(14): view('empleado_vista', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 22:42:56 --> Undefined variable $generoF
+in APPPATH\Views\empleado\crear_empleado.php on line 76.
+ 1 APPPATH\Views\empleado\crear_empleado.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $generoF', 'APPPATH\\Views\\empleado\\crear_empleado.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\crear_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/crear_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(28): view('/empleado/crear_empleado')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getCrear()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

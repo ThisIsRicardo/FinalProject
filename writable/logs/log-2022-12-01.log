@@ -1,0 +1,306 @@
+CRITICAL - 2022-12-01 00:00:16 --> Undefined array key "id"
+in APPPATH\Controllers\CargoController.php on line 80.
+ 1 APPPATH\Controllers\CargoController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\CargoController.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargoController->postupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargoController))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:43:54 --> Undefined array key "Carrera"
+in APPPATH\Views\CargaAcademica\Carga_vista.php on line 55.
+ 1 APPPATH\Views\CargaAcademica\Carga_vista.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Carrera"', 'APPPATH\\Views\\CargaAcademica\\Carga_vista.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\Carga_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/cargaAcademica/carga_vista', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(17): view('/cargaAcademica/carga_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCarga()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:46:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcion'.
+CRITICAL - 2022-12-01 00:46:16 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcion'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT ca.id_carga_academica, ca.id_empleado_cargo,em.nombres,em.apellidos, c.descripcion, ca.id_carga_materia,fac.descripcionf,car.descripcion as carrera,mat.nombres_materia, ca.id_periodo,p.fecha_inicio_ciclo,p.fecha_final_ciclo,p.ciclo,p.año, ca.id_hora, h.dia,h.hora  from Carga_Academica ca
+            inner join inter_Empleado_Cargo iec on ca.id_empleado_cargo = iec.id_empleado_cargo
+            inner join Inter_CargaAcademica_Materia im on ca.id_carga_materia = im.id_carga_materia
+            inner join Periodo p on ca.id_periodo = p.id_periodo
+            inner join Horario h on ca.id_hora = h.id_horario
+            inner join Cargo c on iec.id_cargo = c.id_cargo
+            inner join carrera car on im.id_carrera = car.id_carrera
+            inner join Empleado em on iec.id_empleado = em.id_empleado
+            inner join Materia mat on im.id_materia = mat.id_materia
+            inner join Facultad fac on Car.id_facultad = fac.id_facultad')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ca.id_carga_academica, ca.id_empleado_cargo,em.nombres,em.apellidos, c.descripcion, ca.id_carga_materia,fac.descripcionf,car.descripcion as carrera,mat.nombres_materia, ca.id_periodo,p.fecha_inicio_ciclo,p.fecha_final_ciclo,p.ciclo,p.año, ca.id_hora, h.dia,h.hora  from Carga_Academica ca
+            inner join inter_Empleado_Cargo iec on ca.id_empleado_cargo = iec.id_empleado_cargo
+            inner join Inter_CargaAcademica_Materia im on ca.id_carga_materia = im.id_carga_materia
+            inner join Periodo p on ca.id_periodo = p.id_periodo
+            inner join Horario h on ca.id_hora = h.id_horario
+            inner join Cargo c on iec.id_cargo = c.id_cargo
+            inner join carrera car on im.id_carrera = car.id_carrera
+            inner join Empleado em on iec.id_empleado = em.id_empleado
+            inner join Materia mat on im.id_materia = mat.id_materia
+            inner join Facultad fac on Car.id_facultad = fac.id_facultad')
+ 3 APPPATH\Models\cargaAmodel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT ca.id_carga_academica, ca.id_empleado_cargo,em.nombres,em.apellidos, c.descripcion, ca.id_carga_materia,fac.descripcionf,car.descripcion as carrera,mat.nombres_materia, ca.id_periodo,p.fecha_inicio_ciclo,p.fecha_final_ciclo,p.ciclo,p.año, ca.id_hora, h.dia,h.hora  from Carga_Academica ca
+            inner join inter_Empleado_Cargo iec on ca.id_empleado_cargo = iec.id_empleado_cargo
+            inner join Inter_CargaAcademica_Materia im on ca.id_carga_materia = im.id_carga_materia
+            inner join Periodo p on ca.id_periodo = p.id_periodo
+            inner join Horario h on ca.id_hora = h.id_horario
+            inner join Cargo c on iec.id_cargo = c.id_cargo
+            inner join carrera car on im.id_carrera = car.id_carrera
+            inner join Empleado em on iec.id_empleado = em.id_empleado
+            inner join Materia mat on im.id_materia = mat.id_materia
+            inner join Facultad fac on Car.id_facultad = fac.id_facultad')
+ 4 APPPATH\Controllers\CargaAController.php(15): App\Models\cargaAmodel->mostrarCargaAcademica()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCarga()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:46:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK__Inter_Car__id_ca__45F365D3". The conflict occurred in database "Sistema", table "dbo.Inter_CargaAcademica_Materia", column 'id_carrera'.
+CRITICAL - 2022-12-01 00:46:27 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK__Inter_Car__id_ca__45F365D3". The conflict occurred in database "Sistema", table "dbo.Inter_CargaAcademica_Materia", column 'id_carrera'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN (\'4\')')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(552): CodeIgniter\Database\BaseConnection->query('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN :id_Carrera:', [...], false)
+ 4 SYSTEMPATH\Model.php(401): CodeIgniter\Database\SQLSRV\Builder->delete()
+ 5 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\CarreraController.php(56): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getdelets('4')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:47:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK__Inter_Car__id_ca__45F365D3". The conflict occurred in database "Sistema", table "dbo.Inter_CargaAcademica_Materia", column 'id_carrera'.
+CRITICAL - 2022-12-01 00:47:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK__Inter_Car__id_ca__45F365D3". The conflict occurred in database "Sistema", table "dbo.Inter_CargaAcademica_Materia", column 'id_carrera'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN (\'4\')')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(552): CodeIgniter\Database\BaseConnection->query('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN :id_Carrera:', [...], false)
+ 4 SYSTEMPATH\Model.php(401): CodeIgniter\Database\SQLSRV\Builder->delete()
+ 5 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\CarreraController.php(56): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getdelets('4')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:48:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcion'.
+CRITICAL - 2022-12-01 00:48:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcion'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad')
+ 3 APPPATH\Models\CarreraModel.php(26): CodeIgniter\Database\BaseConnection->query('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad')
+ 4 APPPATH\Controllers\CarreraController.php(15): App\Models\CarreraModel->mostrarCarrera()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getDataCarrera()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:48:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcion'.
+CRITICAL - 2022-12-01 00:48:40 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcion'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=4')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=4')
+ 3 APPPATH\Models\CarreraModel.php(52): CodeIgniter\Database\BaseConnection->query('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=4')
+ 4 APPPATH\Controllers\CarreraController.php(62): App\Models\CarreraModel->getdetails('4')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getedit('4')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:48:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcion'.
+CRITICAL - 2022-12-01 00:48:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'descripcion'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT i.id_carga_materia, m.nombres_materia, c.descripcion from Inter_CargaAcademica_Materia i 
+            inner join carrera c on i.id_carrera = c.id_carrera
+            inner join materia m on i.id_materia = m.id_materia')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT i.id_carga_materia, m.nombres_materia, c.descripcion from Inter_CargaAcademica_Materia i 
+            inner join carrera c on i.id_carrera = c.id_carrera
+            inner join materia m on i.id_materia = m.id_materia')
+ 3 APPPATH\Models\MateriaanidadaModel.php(27): CodeIgniter\Database\BaseConnection->query('SELECT i.id_carga_materia, m.nombres_materia, c.descripcion from Inter_CargaAcademica_Materia i 
+            inner join carrera c on i.id_carrera = c.id_carrera
+            inner join materia m on i.id_materia = m.id_materia')
+ 4 APPPATH\Controllers\Materiasasignacion.php(15): App\Models\MateriaanidadaModel->mostrarMateriaanidada()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Materiasasignacion->getDataMateriaanidada()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Materiasasignacion))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:49:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK__Inter_Car__id_ca__45F365D3". The conflict occurred in database "Sistema", table "dbo.Inter_CargaAcademica_Materia", column 'id_carrera'.
+CRITICAL - 2022-12-01 00:49:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The DELETE statement conflicted with the REFERENCE constraint "FK__Inter_Car__id_ca__45F365D3". The conflict occurred in database "Sistema", table "dbo.Inter_CargaAcademica_Materia", column 'id_carrera'.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN (\'4\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN (\'4\')')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(552): CodeIgniter\Database\BaseConnection->query('DELETE FROM "Sistema"."dbo"."carrera"
+WHERE "id_Carrera" IN :id_Carrera:', [...], false)
+ 4 SYSTEMPATH\Model.php(401): CodeIgniter\Database\SQLSRV\Builder->delete()
+ 5 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\CarreraController.php(56): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getdelets('4')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-01 00:49:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "i.id_carrera" could not be bound.
+CRITICAL - 2022-12-01 00:49:59 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The multi-part identifier "i.id_carrera" could not be bound.
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=17')
+ 2 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=17')
+ 3 APPPATH\Models\CarreraModel.php(52): CodeIgniter\Database\BaseConnection->query('SELECT c.id_carrera, f.id_facultad, c.descripcion,f.descripcionf from carrera c
+            inner join Facultad f on c.id_facultad = f.id_facultad where i.id_carrera=17')
+ 4 APPPATH\Controllers\CarreraController.php(62): App\Models\CarreraModel->getdetails('17')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CarreraController->getedit('17')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarreraController))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:50:53 --> Undefined array key "Carrera"
+in APPPATH\Views\CargaAcademica\Carga_vista.php on line 55.
+ 1 APPPATH\Views\CargaAcademica\Carga_vista.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Carrera"', 'APPPATH\\Views\\CargaAcademica\\Carga_vista.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\Carga_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/cargaAcademica/carga_vista', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(17): view('/cargaAcademica/carga_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCarga()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:52:56 --> Undefined array key "car.descripcion"
+in APPPATH\Views\CargaAcademica\Carga_vista.php on line 56.
+ 1 APPPATH\Views\CargaAcademica\Carga_vista.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "car.descripcion"', 'APPPATH\\Views\\CargaAcademica\\Carga_vista.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\Carga_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/cargaAcademica/carga_vista', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(17): view('/cargaAcademica/carga_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCarga()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 00:57:30 --> Undefined array key "nombres_materia"
+in APPPATH\Views\CargaAcademica\Carga_vista.php on line 55.
+ 1 APPPATH\Views\CargaAcademica\Carga_vista.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres_materia"', 'APPPATH\\Views\\CargaAcademica\\Carga_vista.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\Carga_vista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/cargaAcademica/carga_vista', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(17): view('/cargaAcademica/carga_vista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCarga()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:35:07 --> Undefined array key "id_empleado"
+in APPPATH\Views\Cargo\crear_cargo.php on line 37.
+ 1 APPPATH\Views\Cargo\crear_cargo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_empleado"', 'APPPATH\\Views\\Cargo\\crear_cargo.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Cargo\\crear_cargo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/cargo/crear_cargo', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(29): view('/cargo/crear_cargo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:36:10 --> Undefined array key "apellidos"
+in APPPATH\Views\CargaAcademica\crear_carga.php on line 37.
+ 1 APPPATH\Views\CargaAcademica\crear_carga.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "apellidos"', 'APPPATH\\Views\\CargaAcademica\\crear_carga.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\crear_carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/crear_carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(29): view('/CargaAcademica/crear_carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:36:39 --> Undefined array key "id_periodo"
+in APPPATH\Views\CargaAcademica\crear_carga.php on line 63.
+ 1 APPPATH\Views\CargaAcademica\crear_carga.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_periodo"', 'APPPATH\\Views\\CargaAcademica\\crear_carga.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\crear_carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/crear_carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(29): view('/CargaAcademica/crear_carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:37:24 --> Undefined array key "Año"
+in APPPATH\Views\CargaAcademica\crear_carga.php on line 63.
+ 1 APPPATH\Views\CargaAcademica\crear_carga.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Año"', 'APPPATH\\Views\\CargaAcademica\\crear_carga.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\crear_carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/crear_carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(29): view('/CargaAcademica/crear_carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getDataCombobox()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:49:56 --> Undefined array key "nombres_materia"
+in APPPATH\Views\CargaAcademica\editar_Carga.php on line 35.
+ 1 APPPATH\Views\CargaAcademica\editar_Carga.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres_materia"', 'APPPATH\\Views\\CargaAcademica\\editar_Carga.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\editar_Carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/editar_Carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(79): view('/CargaAcademica/editar_Carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:50:20 --> Undefined array key "fullname"
+in APPPATH\Views\CargaAcademica\editar_Carga.php on line 35.
+ 1 APPPATH\Views\CargaAcademica\editar_Carga.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fullname"', 'APPPATH\\Views\\CargaAcademica\\editar_Carga.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\editar_Carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/editar_Carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(79): view('/CargaAcademica/editar_Carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:51:54 --> Undefined array key "cargo"
+in APPPATH\Views\CargaAcademica\editar_Carga.php on line 35.
+ 1 APPPATH\Views\CargaAcademica\editar_Carga.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cargo"', 'APPPATH\\Views\\CargaAcademica\\editar_Carga.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\editar_Carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/editar_Carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(79): view('/CargaAcademica/editar_Carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:55:35 --> Undefined variable $row2
+in APPPATH\Views\CargaAcademica\editar_Carga.php on line 71.
+ 1 APPPATH\Views\CargaAcademica\editar_Carga.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row2', 'APPPATH\\Views\\CargaAcademica\\editar_Carga.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\editar_Carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/editar_Carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(79): view('/CargaAcademica/editar_Carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:56:35 --> Undefined array key "id_horario"
+in APPPATH\Views\CargaAcademica\editar_Carga.php on line 89.
+ 1 APPPATH\Views\CargaAcademica\editar_Carga.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_horario"', 'APPPATH\\Views\\CargaAcademica\\editar_Carga.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\editar_Carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/editar_Carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(79): view('/CargaAcademica/editar_Carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 01:56:50 --> Undefined variable $row3
+in APPPATH\Views\CargaAcademica\editar_Carga.php on line 89.
+ 1 APPPATH\Views\CargaAcademica\editar_Carga.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row3', 'APPPATH\\Views\\CargaAcademica\\editar_Carga.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\CargaAcademica\\editar_Carga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/CargaAcademica/editar_Carga', [], true)
+ 5 APPPATH\Controllers\CargaAController.php(79): view('/CargaAcademica/editar_Carga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\CargaAController->getedit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargaAController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,391 @@
+CRITICAL - 2022-11-28 18:01:36 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Empleados.php on line 65.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Empleados.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Empleados')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Empleados')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(264): class_exists('App\\Controllers\\Empleados')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(115): CodeIgniter\Router\AutoRouterImproved->scanControllers([...])
+ 6 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouterImproved->getRoute('Empleados/DataEmpleados')
+ 7 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Empleados/DataEmpleados')
+ 8 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Empleados/DataEmpleados')
+ 9 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 18:09:42 --> Undefined variable $empleado
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(66): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 18:12:27 --> Undefined variable $empleado
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(66): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 18:25:04 --> Undefined variable $info
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(69): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 18:25:09 --> Undefined variable $info
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(69): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 18:26:18 --> Undefined variable $info
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(69): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:11:07 --> Undefined variable $info
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $info', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(69): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:16:42 --> Undefined variable $row
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(69): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:16:45 --> Undefined variable $row
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(69): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:17:05 --> Undefined variable $row
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(69): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:17:11 --> Undefined variable $row
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(69): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:19:13 --> Undefined variable $row
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(67): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:19:19 --> Undefined variable $row
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(67): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:19:42 --> Undefined variable $row
+in APPPATH\Views\empleado\editar_empleado.php on line 32.
+ 1 APPPATH\Views\empleado\editar_empleado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\empleado\\editar_empleado.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(67): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:21:10 --> Undefined variable $value
+in APPPATH\Views\empleado\editar_empleado.php on line 34.
+ 1 APPPATH\Views\empleado\editar_empleado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\empleado\\editar_empleado.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(67): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:30:13 --> Undefined variable $data
+in APPPATH\Views\empleado\editar_empleado.php on line 34.
+ 1 APPPATH\Views\empleado\editar_empleado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\empleado\\editar_empleado.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(66): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:36:42 --> Undefined variable $data
+in APPPATH\Views\empleado\editar_empleado.php on line 34.
+ 1 APPPATH\Views\empleado\editar_empleado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\empleado\\editar_empleado.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(66): view('/empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:36:54 --> Undefined variable $data
+in APPPATH\Views\empleado\editar_empleado.php on line 34.
+ 1 APPPATH\Views\empleado\editar_empleado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\empleado\\editar_empleado.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(66): view('empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:36:55 --> Undefined variable $data
+in APPPATH\Views\empleado\editar_empleado.php on line 34.
+ 1 APPPATH\Views\empleado\editar_empleado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\empleado\\editar_empleado.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(66): view('empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:36:55 --> Undefined variable $data
+in APPPATH\Views\empleado\editar_empleado.php on line 34.
+ 1 APPPATH\Views\empleado\editar_empleado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\empleado\\editar_empleado.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(66): view('empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:36:56 --> Undefined variable $data
+in APPPATH\Views\empleado\editar_empleado.php on line 34.
+ 1 APPPATH\Views\empleado\editar_empleado.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\empleado\\editar_empleado.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\empleado\\editar_empleado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('empleado/editar_empleado', [], true)
+ 5 APPPATH\Controllers\Empleados.php(66): view('empleado/editar_empleado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getedit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 21:59:33 --> Undefined array key "id"
+in APPPATH\Controllers\Empleados.php on line 73.
+ 1 APPPATH\Controllers\Empleados.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Empleados.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->postupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-28 22:00:02 --> Undefined array key "id"
+in APPPATH\Controllers\Empleados.php on line 87.
+ 1 APPPATH\Controllers\Empleados.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Controllers\\Empleados.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->postupdate()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-28 22:26:35 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: TCP Provider: No such host is known.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoFinal\app\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\ProyectoFinal\app\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+#4 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+#5 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoFinal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 22:26:35 --> Unable to connect to the database.
+Main connection [sqlsrv]: TCP Provider: No such host is known.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  [dbo].[Empleado] ')
+ 3 APPPATH\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-28 22:27:06 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: TCP Provider: No such host is known.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoFinal\app\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\ProyectoFinal\app\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+#4 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+#5 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoFinal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 22:27:06 --> Unable to connect to the database.
+Main connection [sqlsrv]: TCP Provider: No such host is known.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  [dbo].[Empleado] ')
+ 3 APPPATH\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-28 22:29:42 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: TCP Provider: No such host is known.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. in C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoFinal\app\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\ProyectoFinal\app\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+#4 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+#5 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoFinal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 22:29:42 --> Unable to connect to the database.
+Main connection [sqlsrv]: TCP Provider: No such host is known.
+
+Login timeout expired
+A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  [dbo].[Empleado] ')
+ 3 APPPATH\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-28 22:29:57 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: Login failed for user 'sa'. in C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoFinal\app\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\ProyectoFinal\app\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+#4 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+#5 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoFinal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 22:29:57 --> Unable to connect to the database.
+Main connection [sqlsrv]: Login failed for user 'sa'.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  [dbo].[Empleado] ')
+ 3 APPPATH\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-28 22:30:02 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: Login failed for user 'sa'. in C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoFinal\app\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\ProyectoFinal\app\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+#4 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+#5 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoFinal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 22:30:02 --> Unable to connect to the database.
+Main connection [sqlsrv]: Login failed for user 'sa'.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  [dbo].[Empleado] ')
+ 3 APPPATH\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-28 22:30:28 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: Login failed for user 'sa'. in C:\xampp\htdocs\ProyectoFinal\system\Database\SQLSRV\Connection.php:147
+Stack trace:
+#0 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(382): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\xampp\htdocs\ProyectoFinal\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ProyectoFinal\app\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\ProyectoFinal\app\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+#4 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+#5 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\ProyectoFinal\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProyectoFinal\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-28 22:30:28 --> Unable to connect to the database.
+Main connection [sqlsrv]: Login failed for user 'sa'.
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\EmpleadoModel.php(35): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  [dbo].[Empleado] ')
+ 3 APPPATH\Controllers\Empleados.php(15): App\Models\EmpleadoModel->mostrarEmpleados()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Empleados->getDataEmpleados()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

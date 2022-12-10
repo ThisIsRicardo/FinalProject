@@ -1,0 +1,131 @@
+CRITICAL - 2022-12-09 21:35:02 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:35:13 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:43:57 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:45:18 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:49:09 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:51:27 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:51:36 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:53:43 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:54:14 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:54:17 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:55:38 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 21:56:19 --> Call to a member function mostrar() on null
+in APPPATH\Controllers\Controlador.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-09 21:56:56 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\Final\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 171)
+#1 C:\xampp\htdocs\Final\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('hostname', 'root', '', 'renta', 3306, '', 0)
+#2 C:\xampp\htdocs\Final\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\Final\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\Final\app\Models\Modelo.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#5 C:\xampp\htdocs\Final\app\Controllers\Controlador.php(15): App\Models\Modelo->mostrar()
+#6 C:\xampp\htdocs\Final\system\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+#7 C:\xampp\htdocs\Final\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+#8 C:\xampp\htdocs\Final\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\Final\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\Final\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('hostname', 'root', '', 'renta', 3306, '', 0)
+#1 C:\xampp\htdocs\Final\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Final\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Final\app\Models\Modelo.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#4 C:\xampp\htdocs\Final\app\Controllers\Controlador.php(15): App\Models\Modelo->mostrar()
+#5 C:\xampp\htdocs\Final\system\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+#6 C:\xampp\htdocs\Final\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+#7 C:\xampp\htdocs\Final\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo failed: Host desconocido.  in C:\xampp\htdocs\Final\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\Final\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Final\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Final\app\Models\Modelo.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  ...')
+#3 C:\xampp\htdocs\Final\app\Controllers\Controlador.php(15): App\Models\Modelo->mostrar()
+#4 C:\xampp\htdocs\Final\system\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+#5 C:\xampp\htdocs\Final\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+#6 C:\xampp\htdocs\Final\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Final\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-09 21:56:56 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Modelo.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM  reserva ')
+ 3 APPPATH\Controllers\Controlador.php(15): App\Models\Modelo->mostrar()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 23:06:10 --> Undefined array key "id_empleado"
+in APPPATH\Views\vista_reserva.php on line 55.
+ 1 APPPATH\Views\vista_reserva.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_empleado"', 'APPPATH\\Views\\vista_reserva.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\vista_reserva.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('vista_reserva', [], true)
+ 5 APPPATH\Controllers\controlador.php(17): view('vista_reserva', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Controlador->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controlador))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
