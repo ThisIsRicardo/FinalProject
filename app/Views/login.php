@@ -28,7 +28,7 @@
             </div>
             <div class="col-md-4 login-form-2">
                 <form action="<?php echo base_url('controlador/validation'); ?>" method="POST">
-                <h1 class="text-center ">BIENVENIDOO</h1>
+                <h1 class="text-center ">BIENVENIDO</h1>
                 <h4 class="lead text-center ">Login</h4>
                 <img src="<?php echo base_url(); ?>/img/logoUpesWeb.png" width="200" height="200" class="rounded mx-auto d-block">
                 <form>
